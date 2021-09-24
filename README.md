@@ -1,1 +1,1 @@
-Berikut Tugas Javscript dasar dan Code Challenge
+Berikut Tugas Javascript dasar dan Code Challenge
