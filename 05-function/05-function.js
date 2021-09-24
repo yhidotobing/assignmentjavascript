@@ -13,7 +13,6 @@
 /// Returnn Value
 /// - (Number) total pajak yang harus kamu bayarkan
 
-/// EDIT HERE
 function taxCalc(salary) {
   if (salary < 5000000) {
     return `Rp.${salary * 0}`;
@@ -44,7 +43,6 @@ console.log(taxCalc(20000000));
 /// - (String) Indikasi BMI yang didapatkan melalui formula dibawah
 ///   (weight/(height^2)) * 10000
 
-/// EDIT HERE
 function checkBMI(height, weight) {
   let BMI = (weight / Math.pow(height, 2)) * 10000;
   if (BMI < 18.5) {
@@ -69,8 +67,6 @@ console.log(checkBMI(165, 45));
 
 /// Return Value
 /// - (String) kalimat yang sudah kita ubah huruf pertamanya menjadi huruf besar
-
-/// EDIT HERE
 
 function convToUpperCase(sentence) {
   let splitSentence = sentence.split(" ");
